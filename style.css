@@ -1,0 +1,162 @@
+body {background-image: url("pattern-background-desktop.svg");}
+
+.background-image {
+  
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-color:  hsl(225, 100%, 94%);
+}
+
+.container { display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left:-80px;
+}
+
+.card {width: 375px;
+height: 600px;
+background-color: white;
+border-radius: 20px;
+
+}
+
+.girl {width: 375px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;}
+
+.order-summary-font {font-size: 25px;
+font-family: 'red hat display';
+font-weight: 900;
+text-align: center;
+color: hsl(223, 47%, 23%);
+text-shadow: 2px;
+}
+
+.description {font-size: 16px;
+  font-family: 'red hat display';
+  font-weight: 500;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-top: -12px;
+}
+
+.description-2 {font-size: 16px;
+  font-family: 'red hat display';
+  font-weight: 500;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-top: -12px;
+
+}
+
+.description-3 {font-size: 16px;
+  font-family: 'red hat display';
+  font-weight: 500;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-top: -12px;
+
+}
+
+.tiny-card {width: 310px;
+  height: 85px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  margin-left: 32px;
+  margin-top: 30px;
+
+}
+
+.music-note {display: block;
+  margin-left: 20px;
+  padding-top: 20px;
+ 
+}
+
+.annual-plan-font {font-size: 16px;
+font-family: 'red hat display';
+font-weight: 900;
+color: hsl(223, 47%, 23%);
+text-align: center;
+margin-left: -60px;
+margin-top: -65px;
+
+}
+
+.price {font-size: 14px;
+font-family: 'red hat display';
+font-weight: 700;
+color: hsl(224, 23%, 55%);
+text-align: center;
+margin-left: -65px;
+margin-top: -10px;
+
+}
+
+.change {font-size: 16px;
+font-family: 'red hat display';
+font-weight: 900;
+text-decoration: underline;
+color: hsl(245, 75%, 52%);
+margin-left: -120px;
+margin-top: 200px;
+
+}
+
+
+.payment-button {width: 310px;
+height: 60px;
+background: hsl(245, 75%, 52%);
+border-radius: 20px;
+margin-left: 32px;
+margin-top: 45px;
+box-shadow: 0px 15px 30px -8px hsla(244, 100%, 81%, 0.863);
+
+}
+
+.proceed-to-payment { font-size: 19px;
+  font-family: 'red hat display';
+  font-weight: 900;
+  color:hsl(225, 100%, 98%);
+ text-align: center;
+ padding-top: 15px;
+
+}
+
+.payment-button:hover {
+  background-color:hsla(244, 78%, 64%, 0.863) ;
+border-radius: 20px;
+width: 310px;
+height: 60px;
+cursor:pointer;
+
+}
+
+
+.cancel {font-size: 19px;
+  font-family: 'red hat display';
+  font-weight: 900;
+  color:hsl(224, 23%, 55%);
+  margin-top: 20px;
+  margin-left: 130px;
+
+
+}
+
+.cancel:hover { color: black;
+cursor: pointer;
+
+}
+
+/*Screen Size for Mobile*/
+@media screen and (max-width:375px) { 
+  body {background-color: hsl(225, 100%, 94%);
+
+}
+
+/*Screen Size for Mobile*/
+@media screen and (max-width:1440px) { 
+  body {background-color: hsl(225, 100%, 94%);}
+
+}
